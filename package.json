@@ -1,0 +1,26 @@
+{
+  "name": "rspack-hmr",
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {
+    "start": "pnpm run --filter @rspack-hmr/* dev",
+    "build": "pnpm run --filter @rspack-hmr/* build"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "0.3.3",
+    "@module-federation/runtime": "0.3.3",
+    "@module-federation/sdk": "0.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@rspack/cli": "0.7.4",
+    "@rspack/core": "0.7.4",
+    "@rspack/plugin-react-refresh": "0.7.4",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "prettier": "3.3.2",
+    "react-refresh": "0.14.2"
+  }
+}
